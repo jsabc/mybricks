@@ -44,6 +44,8 @@ set magic
 
 " Enable syntax highlighting
 syntax enable
+" set termguicolors
+colorscheme default
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
@@ -74,12 +76,14 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+hi Visual term=reverse cterm=reverse guibg=Grey
+
 hi CursorLine cterm=bold ctermbg=none ctermfg=none
 hi CursorLineNr cterm=bold ctermbg=none ctermfg=none
 
 hi TabLine cterm=none ctermbg=none ctermfg=none
 hi TabLineFill cterm=none ctermbg=none ctermfg=none
-hi TabLineSel cterm=bold ctermbg=white ctermfg=red
+hi TabLineSel cterm=reverse ctermbg=none ctermfg=red
 
 hi Folded cterm=none ctermbg=none ctermfg=none
 hi FoldColumn cterm=none ctermbg=none ctermfg=none
