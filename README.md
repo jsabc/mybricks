@@ -1,25 +1,20 @@
 # my bricks
 
-<details><summary><h2>安装开发环境</h2></summary>
-
-### 在 Windows 10 上搭建工作环境
+<details><summary><h3>在 Windows 10 上搭建工作环境</h3></summary>
 
 1. #### 安装 WSL2 和 Ubuntu 20
 在我当前的 Windows 10 版本上，用管理员身份打开 Powershell 程序，并且运行 `wsl --install` 命令，会自动安装 WSL(2) 环境，默认情况下也会同时安装好 Ubuntu 20。
-
 2. #### WSL Ubuntu 安装开发环境
 由于 WSL2 目前并不支持 snap，所以建议通过 nvm 来安装 node。如果安装 nvm 遇到 `curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused` 问题，主要是 DNS 受到污染，可以修改本地 DNS 为 `8.8.8.8` 和 `8.8.4.4` 来解决。
-
 3. #### 安装开发工具
 在 WSL 环境下，建议使用 Visual Studio Code 编辑器。同时，为了让它和 WSL 能正常配合工作，还需要给它安装 Remote WSL 扩展。在安装完 Remote WSL 扩展之后，可能有必要在 Powershell 中运行 `wsl.exe --shutdown` 命令重启 WSL。
-
-4. 配置 Github
+4. #### 配置 Github
 详情参考 github 官方文档。
 </details>
 
 ----
 
-<details><summary><h2>Nuxt.js</h2></summary>
+<details><summary><h3>Nuxt.js</h3></summary>
 
 - Nuxt.js
   * assets/
@@ -33,7 +28,7 @@
   * nuxt.config.js
 </details>
 
-<details><summary><h2>Vue(2).js</h2></summary>
+<details><summary><h3>Vue(2).js</h3></summary>
 
 - Vue.js
   * Component
@@ -70,7 +65,7 @@
       - {}
 </details>
 
-<details><summary><h2>Tailwindcss</h2></summary>
+<details><summary><h3>Tailwindcss</h3></summary>
 
 #### 安装 Tailwindcss 及适用于 nuxt 2 的相关依赖
 
@@ -154,27 +149,13 @@ module.exports = {
 参考文档：[Install Tailwind CSS with Nuxt.js](https://tailwindcss.com/docs/guides/nuxtjs)
 </details>
 
-<details><summary><h2>Axios</h2></summary>
+<details><summary><h3>Axios</h3></summary>
 
 ...
 
 </details>
 
-<details><summary><h2>GraphQL</h2></summary>
-
-...
-
-</details>
-
-----
-
-<details><summary><h2>Mapbox</h2></summary>
-
-...
-
-</details>
-
-<details><summary><h2>Turf</h2></summary>
+<details><summary><h3>GraphQL</h3></summary>
 
 ...
 
@@ -182,7 +163,21 @@ module.exports = {
 
 ----
 
-<details><summary><h2>vimrc</h2></summary>
+<details><summary><h3>Mapbox</h3></summary>
+
+...
+
+</details>
+
+<details><summary><h3>Turf</h3></summary>
+
+...
+
+</details>
+
+----
+
+<details><summary><h3>vimrc</h3></summary>
 
 ```
 " Enable filetype plugins
