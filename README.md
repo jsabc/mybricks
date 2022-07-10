@@ -11,10 +11,10 @@
 3. #### 设置 Windows Terminal 中 WSL Ubuntu 的启动目录
 在设置中，找到对应的启动目录栏，将默认的 `%USERPROFILE%` 改为 `\\wsl$\Ubuntu-20.04\home\jsabc`。
 
-3. #### 安装开发工具
+4. #### 安装开发工具
 在 WSL 环境下，建议使用 Visual Studio Code 编辑器。同时，为了让它和 WSL 能正常配合工作，还需要给它安装 Remote WSL 扩展。在安装完 Remote WSL 扩展之后，可能有必要在 Powershell 中运行 `wsl.exe --shutdown` 命令重启 WSL。
 
-4. #### 配置 Github
+5. #### 配置 Github
 详情参考 github 官方文档。
 </details>
 
