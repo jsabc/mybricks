@@ -21,8 +21,6 @@
 
 <details><summary><h2>Nuxt.js</h2></summary>
 
-### Nuxt.js
-
 - Nuxt.js
   * assets/
   * components/
@@ -35,9 +33,7 @@
   * nuxt.config.js
 </details>
 
-<details><summary><h2>Vue.js</h2></summary>
-
-### Vue(2).js
+<details><summary><h2>Vue(2).js</h2></summary>
 
 - Vue.js
   * Component
@@ -75,8 +71,6 @@
 </details>
 
 <details><summary><h2>Tailwindcss</h2></summary>
-
-### Tailwindcss
 
 #### 安装 Tailwindcss 及适用于 nuxt 2 的相关依赖
 
@@ -170,15 +164,13 @@ module.exports = {
 
 <details><summary><h2>GraphQL</h2></summary>
 
-### GraphQL
-
 ...
 
 </details>
 
-<details><summary><h2>Mapbox</h2></summary>
+----
 
-### Mapbox
+<details><summary><h2>Mapbox</h2></summary>
 
 ...
 
@@ -186,15 +178,13 @@ module.exports = {
 
 <details><summary><h2>Turf</h2></summary>
 
-### Turf
-
 ...
 
 </details>
 
-<details><summary><h2>vimrc</h2></summary>
+----
 
-### vimrc
+<details><summary><h2>vimrc</h2></summary>
 
 ```
 " Enable filetype plugins
@@ -302,5 +292,4 @@ noremap <leader>0 :tablast<cr>
 noremap <C-e> :Explore
 noremap <C-t> :tabedit
 ```
-
 </details>
